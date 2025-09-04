@@ -1,1 +1,55 @@
 /* Your CSS here. */
+
+
+.container {
+    display: flex;
+    background-color: #ce312d;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;       /* center both image and heading */
+    width: 800px;         /* limit width */
+    max-height: 800px;
+    margin: 0 auto;           /* center container on page */
+    gap: 20px;
+    padding: 20px;
+    /*background-image: url("../assets/image2.jpg");*/
+}
+
+.container img {
+  margin-top: 20px;
+  width: 30%;
+}
+
+.container h1 {
+    color: white;
+}
+
+.container h2 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container a {
+    color: cyan;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.buttonrow {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
